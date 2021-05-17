@@ -1,0 +1,60 @@
+/* main stylesheet */
+
+.navbar {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navbar li:first-child a:hover, .navbar li:nth-child(2) a:hover {
+    text-decoration: underline;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav li, .right-nav li {
+    margin-left: 0.7rem;
+}
+
+.right-nav {
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 50%;
+}
+.apps:hover {
+    background: var(--lightgray);
+}
+
+.right-nav li img {
+    width: 1.25rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* media queries  */
+
+@media only screen and (max-width: 815px) and (orientation: portrait) {
+
+}
+
+@media only screen and (max-width: 415px) and (orientation: portrait) {
+
+}

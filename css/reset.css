@@ -1,0 +1,60 @@
+/* Design and Reset Styles */
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: calc(1em + 1vh);
+    font-family: Arial, sans-serif; /* change/add font-family to your liking */
+    --black: #000000;
+    --white: #FFFFFF; 
+    --darkgray: #DADBE0;
+    --lightgray: #F2F2F2;
+    --blue: #474EEB;
+}
+
+html, body {
+    background: var(--white); /*change this to your liking*/
+    max-width: 100%;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p, span {
+    font-size: 1em;
+    font-family: Arial, sans-serif; /* change/add font-family to your liking */
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+
