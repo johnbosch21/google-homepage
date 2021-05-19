@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <!-- 
-   
-      888   88888888    8888888    888   888     8888888      
+      888   Jeremiah    8888888    888   888     8888888      
       888   888         8888 88    888   888     8888 88      
-      888   8888888      888       888   888      888          
+      888   --31:3-      888       888   888      888          
       888   888           88888    888   888       88888
   88  888   888        88  8888    888   888    88  8888
   88888     88888888   88888888    888888888    88888888
@@ -25,36 +24,51 @@
   <!-- change/add font-family to your liking -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <!-- change/add font-family to your liking -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon.ico"/>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/main.css">
   <script src="https://kit.fontawesome.com/d783747983.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="shortcut icon" href="./images/favicon.ico"/>
-
 </head>
 
-<body>
-  <header>
-    <nav class="navbar">
-      <ul class="left-nav">
-        <li><a href="#"><span>About</span></a></li>
-        <li><a href="#"><span>Store</span></a></li>
-      </ul>
-      <ul class="right-nav">
-        <li><a href="#"><span>Gmail</span></a></li>
-        <li><a href="#"><span>Images</span></a></li>
-        <li><a href="#" class="apps"><span class="material-icons">apps</span></a></li>
-        <li><a href="#"><img src="./images/avatar.png"></a></li>
-      </ul>
-    </nav>
-  </header>
+<body class="parent-container">
 
-  <main>
-    
-  </main>
-
-  <footer>
-    
-  </footer>
+    <header class="navigation">
+      <nav class="navbar">
+        <ul class="left-nav">
+          <li><a href="#"><span>About</span></a></li>
+          <li><a href="#"><span>Store</span></a></li>
+        </ul>
+        <ul class="right-nav">
+          <li><a href="#"><span>Gmail</span></a></li>
+          <li><a href="#"><span>Images</span></a></li>
+          <li><a href="#" class="apps"><span class="material-icons">apps</span></a></li>
+          <li><a href="#"><img src="./images/avatar.png"></a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <main class="main-content">
+      <div class="google-logo">
+        <img src="./images/google_logo.png" alt="">
+      </div>
+      
+      <form class="searchbar">
+        <div class="upper-searchbar">
+          <span class="material-icons icon">search</span>
+          <label for="search"></label>
+          <input type="text" name="search" id="search" class="search">
+          <a href="#"><span class="material-icons icon">mic_none</span></a>
+        </div>
+        <div class="lower-searchbar">
+          <button type="submit" id="google-search" class="google-search button">Google Search</button>
+          <button type="button" id="feeling-lucky" class="feeling-lucky button">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </main>
+  
+    <footer>
+      
+    </footer>
 </body>
 </html>
