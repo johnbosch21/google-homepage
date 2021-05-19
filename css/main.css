@@ -146,7 +146,8 @@
     margin: 0 0.25rem;
     height: 1.5rem;
     padding: 0 0.75rem;
-    background-color: var(--lightgray);
+    background-color: #f2f2f270;
+    border-radius: 0.1rem;
     border: none;
     outline: none;
     font-size: 0.6rem;
@@ -163,6 +164,37 @@
 
 /* footer */
 
+.footer {
+    background: var(--lightgray);
+    padding: 0.4rem;
+    grid-row: span 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.5rem;
+}
+
+.left-footer, .right-footer {
+    display: flex;
+    align-items: center;
+}
+
+.left-footer li, .right-footer li {
+    margin-left: 1rem;
+}
+
+.right-footer {
+    justify-content: flex-end;
+    margin-right: 0.7rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
 
 
 /* footer */
