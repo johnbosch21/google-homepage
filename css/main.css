@@ -146,6 +146,10 @@
 /* media queries  */
 
 @media only screen and (max-width: 815px) and (orientation: portrait) {
+    .google-logo {
+        height: calc(92px/2);
+        width: calc(272px/2);
+    }
 
 }
 
